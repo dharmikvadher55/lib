@@ -19,10 +19,11 @@
     "credit": "(?i)(added|received)",
     "debit": "(?i)(sent|paid|debited)"
   },
-  "KOTAKB": {
-    "amount": "(?i)(?:₹|Rs\\.?|INR)\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
-    "credit": "(?i)(?!.*request)(credited|deposited|added|received\\s*(?:Rs\\.?|INR|₹)\\s*[0-9,]+(?:\\.[0-9]{1,2})?|(?:Rs\\.?|INR|₹)\\s*[0-9,]+(?:\\.[0-9]{1,2})?\\s*(has\\s+been\\s+transferd|has\\s+been\\s+transferred)\\s+to\\s+your\\s+account)",
-    "debit": "(?i)(?!.*request)(?:sent\\s*(?:Rs\\.?|INR|₹)\\s*[0-9,]+(?:\\.[0-9]{1,2})?\\s*from\\s*Kotak\\s*Bank\\s*AC)"
-  }
+ "KOTAKB": {
+  "amount": "(?i)(?:₹|Rs\\.?|INR|Rs:)\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
+  "credit": "(?i)(?!.*request)(credited|deposited|added|received\\s*(?:Rs\\.?|INR|₹|Rs:)\\s*[0-9,]+(?:\\.[0-9]{1,2})?|transfer(?:ed|d)\\s*to\\s*your\\s*account)",
+  "debit": "(?i)(?!.*request)(?:sent\\s*(?:Rs\\.?|INR|₹|Rs:)\\s*[0-9,]+(?:\\.[0-9]{1,2})?\\s*from\\s*Kotak\\s*Bank\\s*AC)"
+}
+
 
 }
