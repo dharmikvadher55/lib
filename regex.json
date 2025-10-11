@@ -19,6 +19,8 @@
     "credit": "(?i)(added|received)",
     "debit": "(?i)(sent|paid|debited)"
   },
+
+  
   "KOTAKB": {
     "amount": "(?i)(?:₹|Rs\\.?|INR|Rs:)\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
     "credit": "(?i)(?:received\\s*(?:Rs\\.?|INR|₹|Rs:)\\s*[0-9,]+(?:\\.[0-9]{1,2})?\\s*in\\s*your\\s*Kotak\\s*Bank\\s*AC)",
