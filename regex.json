@@ -21,7 +21,7 @@
   },
   "KOTAKB": {
     "amount": "(?i)(?:₹|Rs\\.?|INR|Rs:)\\s*([0-9,]+(?:\\.[0-9]{1,2})?)",
-    "credit": "(?i)(?!.*request)(?:Recieved\\s*(?:Rs\\.?|INR|₹|Rs:)\\s*[0-9,]+(?:\\.[0-9]{1,2})?\\s*in\\s*your\\s*Kotak\\s*Bank\\s*AC)",
+    "credit": "(?i)(?!.*request)(?:recieved\\s*(?:Rs\\.?|INR|₹|Rs:)\\s*[0-9,]+(?:\\.[0-9]{1,2})?\\s*in\\s*your\\s*Kotak\\s*Bank\\s*AC)",
     "debit": "(?i)(?!.*request)(?:sent\\s*(?:Rs\\.?|INR|₹|Rs:)\\s*[0-9,]+(?:\\.[0-9]{1,2})?\\s*from\\s*Kotak\\s*Bank\\s*AC)"
   }
 
